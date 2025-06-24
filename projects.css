@@ -1,0 +1,83 @@
+.itemclass{
+    margin-left: 20px;
+}
+.nav-link {
+    color: black !important;
+  }
+
+  .nav-link.active,
+  .nav-pills .nav-link.active {
+    background-color: black !important;
+    color: white !important;
+  }
+    header.border-bottom {
+    border-bottom: 2px solid black !important;
+  }
+   .border-bottom {
+    border-bottom: 1px solid black !important;
+  }
+.mainbox{
+    display: flex;
+    flex-direction: column;;
+    justify-content: center;
+    align-items: center;
+}
+h5{
+    background-color: #f5df4e;
+    font-size: 1.9rem;
+}
+h3{
+    font-size: 2.2rem;
+}
+h2{
+    font-size: 2.2rem;
+}
+p{
+    font-size: 1.5rem;
+}
+
+
+.box2{
+  margin-left: 50px;
+}
+  .text2.heading {
+
+    color: #6c757d; /* Bootstrap muted grey */
+    font-weight: 500; /* Semi-bold */
+    margin-bottom: 0.2rem;
+    letter-spacing: 0.3px;
+  }
+
+  .text2.content {
+    color: #212529; 
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  .service-icon {
+  color: #f5df4e;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+/* Fade and scale animation */
+@keyframes fadeInScale {
+  0% {
+    opacity: 0;
+    transform: scale(0.95) translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+.card {
+  opacity: 0;
+  animation: fadeInScale 1s ease forwards;
+}
+
+.card:nth-child(1) { animation-delay: 0.2s; }
+.card:nth-child(2) { animation-delay: 0.4s; }
+.card:nth-child(3) { animation-delay: 0.6s; }
+
+

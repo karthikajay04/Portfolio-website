@@ -1,0 +1,71 @@
+body{
+    background-color: #f5df4e;
+    padding-left: 100px;
+    
+}
+
+.blackbtn{
+    background-color: black;
+}
+ .nav-link {
+    color: black !important;
+  }
+
+  .nav-link.active,
+  .nav-pills .nav-link.active {
+    background-color: black !important;
+    color: white !important;
+  }
+    header.border-bottom {
+    border-bottom: 2px solid black !important;
+  }
+   .border-bottom {
+    border-bottom: 1px solid black !important;
+  }
+  /* Fade In Text Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Slide In Image */
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Animation Classes */
+.hero-text {
+  animation: fadeInUp 1s ease-out forwards;
+  opacity: 0;
+}
+
+.hero-img {
+  animation: slideInRight 1s ease-out forwards;
+  opacity: 0;
+  animation-delay: 0.5s;
+}
+
+/* Button Hover Effects */
+.blackbtn:hover {
+  background-color: #000;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #6c757d;
+  color: #fff;
+}

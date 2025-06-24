@@ -1,0 +1,202 @@
+body{
+    background-color: #f5df4e;
+    padding-left: 100px;
+    
+}
+
+.blackbtn{
+    background-color: black;
+}
+ .nav-link {
+    color: black !important;
+  }
+
+  .nav-link.active,
+  .nav-pills .nav-link.active {
+    background-color: black !important;
+    color: white !important;
+  }
+    header.border-bottom {
+    border-bottom: 2px solid black !important;
+  }
+   .border-bottom {
+    border-bottom: 1px solid black !important;
+  }
+
+  /* From Uiverse.io by Yaya12085 */ 
+.form {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  width: 400px;
+  background-color: #f5df4e;
+  padding: 20px;
+  border-radius: 10px;
+  
+}
+
+.form .title {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input {
+  outline: 0;
+  border: 1px solid rgb(219, 213, 213);
+  padding: 8px 14px;
+  border-radius: 8px;
+  width: 100%;
+  height: 50px;
+}
+
+.form textarea {
+  border-radius: 8px;
+  height: 100px;
+  width: 100%;
+  resize: none;
+  outline: 0;
+  padding: 8px 14px;
+  border: 1px solid rgb(219, 213, 213);
+}
+
+.form button {
+  align-self: flex-end;
+  padding: 8px;
+  outline: 0;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: white;
+  
+  color: black;
+  cursor: pointer;
+}
+
+
+/* Animations */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+}
+
+/* Delay for staggered appearance */
+.fade-delay-1 { animation-delay: 0.2s; }
+.fade-delay-2 { animation-delay: 0.4s; }
+.fade-delay-3 { animation-delay: 0.6s; }
+.fade-delay-4 { animation-delay: 0.8s; }
+
+/* Style the contact form */
+form.form {
+  background: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+form.form .input,
+form.form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form.form .title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+form.form button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+form.form button:hover {
+  background-color: #333;
+}
+
+    
+
+/* From Uiverse.io by Mangesh636 */ 
+button {
+  background: transparent;
+  position: relative;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid rgb(36, 41, 46);
+  border-radius: 25px;
+  outline: none;
+  overflow: hidden;
+  color: rgb(36, 41, 46);
+  transition: color 0.3s 0.1s ease-out;
+  text-align: center;
+}
+
+button span {
+  margin: 10px;
+}
+
+button::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  content: "";
+  border-radius: 50%;
+  display: block;
+  width: 20em;
+  height: 20em;
+  left: -5em;
+  text-align: center;
+  transition: box-shadow 0.5s ease-out;
+  z-index: -1;
+}
+
+button:hover {
+  color: #fff;
+  border: 1px solid rgb(36, 41, 46);
+}
+
+button:hover::before {
+  box-shadow: inset 0 0 0 10em rgb(36, 41, 46);
+}
+.git{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
